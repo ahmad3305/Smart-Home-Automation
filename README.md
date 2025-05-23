@@ -23,4 +23,33 @@ You can handle users, homes, rooms, all sorts of devices (like lights, fans, loc
   The system keeps track of which supplier sells which device type, how much its stock, warranty, and so on. (There is many-to-many between device types and suppliers and also some additional relational info, so I made association class between them)
 
 - **Workers:**  
-  There are workers, and each worker can be skilled with different device types. So, for example, you can know which worker to call if something breaks or needs installing. (There is many-to-many between device types and workers and also some additional relational info, so I made association class between them)
+  There are workers, and each worker can be skilled with different device types. So, for example, you can know which worker to call if something breaks or needs installing. (There is many-to-many between device types and workers and also some additional relational info, so I made association class between them).
+
+## Classes in the Project
+
+Here’s basically what you’ll find in the code:
+
+- **Account, Admin, User, Guest**: Account types and permissions.
+- **Home, Room**: Places where devices live.
+- **Device, Light, Fan, AC, Heater, Wifi, DoorLock, WindowLock, DeviceType**: All the devices and their types.  
+  Devices inherit from a base Device class and each specialized device can have its own logic.
+- **Supplier, Inventory, Warehouse**: For keeping track of who sells what, where things are, and how much is left.
+- **Worker, WorkerDeviceType**: Workers and what device types they can handle.
+- **DeviceTypeSupplier**: Keeps track of which supplier supplies which device type, with info like price, stock, warranty, etc.
+- **EnergyUsage**: Records for tracking how much energy something is using.
+
+---
+
+## How are things connected?
+
+- **A User owns Homes.** A Home can’t exist without a User.
+- **Homes have Rooms.** Rooms can’t exist outside a Home.
+- **Rooms have Devices.** Installed Devices can’t exist outside a Room.
+- **Devices have a DeviceType.** DeviceType can exist on its own and is shared, so it’s not like the device “owns” it.
+- **Suppliers supply DeviceTypes (through DeviceTypeSupplier).** One supplier can supply many device types, and one device type can be supplied by many suppliers.
+- **Inventory belongs to a Supplier and is stored in a Warehouse.**
+- **Workers can work with many DeviceTypes, and each DeviceType can be handled by many Workers.**
+- **EnergyUsage is linked to Devices and Users.**
+
+---
+
