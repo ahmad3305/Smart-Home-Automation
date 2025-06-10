@@ -1,1 +1,15 @@
+# Visual Studio settings
 .vs/
+*.user
+*.suo
+
+# Build outputs
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.log
+
+# Others
+*.vcxproj.user
+*.ipch
