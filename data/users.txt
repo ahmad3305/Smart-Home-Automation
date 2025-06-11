@@ -1,0 +1,29 @@
+userId: U-23812
+username: user_john
+password: xR5h@kP9
+name: John Doe
+homeId: H-62357
+
+userId: U-82736
+username: user_susan
+password: !mR7Hd*
+name: Susan Brown
+homeId: H-19372
+
+userId: U-91287
+username: user_ali
+password: 9Hv@kqL
+name: Ali Khan
+homeId: H-49201
+
+userId: U-10283
+username: user_emma
+password: &WkX8@2
+name: Emma Watson
+homeId: H-83729
+
+userId: U-39485
+username: user_michael
+password: #Tz6d&Q
+name: Michael Smith
+homeId: H-48290

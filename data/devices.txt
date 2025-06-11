@@ -1,0 +1,254 @@
+deviceId: D-19283
+deviceName: Light Alpha
+roomId: R-19283
+deviceType: Light
+
+deviceId: D-18273
+deviceName: Fan Alpha
+roomId: R-19283
+deviceType: Fan
+
+deviceId: D-38201
+deviceName: AC Alpha
+roomId: R-18273
+deviceType: AC
+
+deviceId: D-48203
+deviceName: Heater Alpha
+roomId: R-18273
+deviceType: Heater
+
+deviceId: D-49282
+deviceName: Wifi Alpha
+roomId: R-38201
+deviceType: Wifi
+
+deviceId: D-29301
+deviceName: DoorLock Alpha
+roomId: R-38201
+deviceType: DoorLock
+
+deviceId: D-98302
+deviceName: WindowLock Alpha
+roomId: R-48203
+deviceType: WindowLock
+
+deviceId: D-19382
+deviceName: Light Beta
+roomId: R-48203
+deviceType: Light
+
+deviceId: D-89302
+deviceName: Fan Beta
+roomId: R-49282
+deviceType: Fan
+
+deviceId: D-48273
+deviceName: AC Beta
+roomId: R-49282
+deviceType: AC
+
+deviceId: D-57382
+deviceName: Heater Beta
+roomId: R-29301
+deviceType: Heater
+
+deviceId: D-48372
+deviceName: Wifi Beta
+roomId: R-29301
+deviceType: Wifi
+
+deviceId: D-29381
+deviceName: DoorLock Beta
+roomId: R-98302
+deviceType: DoorLock
+
+deviceId: D-48292
+deviceName: WindowLock Beta
+roomId: R-98302
+deviceType: WindowLock
+
+deviceId: D-49273
+deviceName: Light Gamma
+roomId: R-19382
+deviceType: Light
+
+deviceId: D-98320
+deviceName: Fan Gamma
+roomId: R-19382
+deviceType: Fan
+
+deviceId: D-19372
+deviceName: AC Gamma
+roomId: R-89302
+deviceType: AC
+
+deviceId: D-48239
+deviceName: Heater Gamma
+roomId: R-89302
+deviceType: Heater
+
+deviceId: D-48293
+deviceName: Wifi Gamma
+roomId: R-48273
+deviceType: Wifi
+
+deviceId: D-49283
+deviceName: DoorLock Gamma
+roomId: R-48273
+deviceType: DoorLock
+
+deviceId: D-29302
+deviceName: WindowLock Gamma
+roomId: R-57382
+deviceType: WindowLock
+
+deviceId: D-49201
+deviceName: Light Delta
+roomId: R-57382
+deviceType: Light
+
+deviceId: D-48392
+deviceName: Fan Delta
+roomId: R-48372
+deviceType: Fan
+
+deviceId: D-48293
+deviceName: AC Delta
+roomId: R-48372
+deviceType: AC
+
+deviceId: D-49282
+deviceName: Heater Delta
+roomId: R-29381
+deviceType: Heater
+
+deviceId: D-18372
+deviceName: Wifi Delta
+roomId: R-29381
+deviceType: Wifi
+
+deviceId: D-29381
+deviceName: DoorLock Delta
+roomId: R-48292
+deviceType: DoorLock
+
+deviceId: D-48283
+deviceName: WindowLock Delta
+roomId: R-48292
+deviceType: WindowLock
+
+deviceId: D-49283
+deviceName: Light Epsilon
+roomId: R-49273
+deviceType: Light
+
+deviceId: D-29384
+deviceName: Fan Epsilon
+roomId: R-49273
+deviceType: Fan
+
+deviceId: D-38492
+deviceName: AC Epsilon
+roomId: R-98320
+deviceType: AC
+
+deviceId: D-48293
+deviceName: Heater Epsilon
+roomId: R-98320
+deviceType: Heater
+
+deviceId: D-59384
+deviceName: Wifi Epsilon
+roomId: R-19372
+deviceType: Wifi
+
+deviceId: D-48202
+deviceName: DoorLock Epsilon
+roomId: R-19372
+deviceType: DoorLock
+
+deviceId: D-11192
+deviceName: WindowLock Epsilon
+roomId: R-48239
+deviceType: WindowLock
+
+deviceId: D-29302
+deviceName: Light Zeta
+roomId: R-48239
+deviceType: Light
+
+deviceId: D-93823
+deviceName: Fan Zeta
+roomId: R-48293
+deviceType: Fan
+
+deviceId: D-48273
+deviceName: AC Zeta
+roomId: R-48293
+deviceType: AC
+
+deviceId: D-49383
+deviceName: Heater Zeta
+roomId: R-49283
+deviceType: Heater
+
+deviceId: D-58382
+deviceName: Wifi Zeta
+roomId: R-49283
+deviceType: Wifi
+
+deviceId: D-29384
+deviceName: DoorLock Zeta
+roomId: R-29302
+deviceType: DoorLock
+
+deviceId: D-49382
+deviceName: WindowLock Zeta
+roomId: R-29302
+deviceType: WindowLock
+
+deviceId: D-58373
+deviceName: Light Theta
+roomId: R-49201
+deviceType: Light
+
+deviceId: D-19302
+deviceName: Fan Theta
+roomId: R-49201
+deviceType: Fan
+
+deviceId: D-28393
+deviceName: AC Theta
+roomId: R-48392
+deviceType: AC
+
+deviceId: D-48283
+deviceName: Heater Theta
+roomId: R-48392
+deviceType: Heater
+
+deviceId: D-39284
+deviceName: Wifi Theta
+roomId: R-48293
+deviceType: Wifi
+
+deviceId: D-48292
+deviceName: DoorLock Theta
+roomId: R-48293
+deviceType: DoorLock
+
+deviceId: D-49273
+deviceName: WindowLock Theta
+roomId: R-49282
+deviceType: WindowLock
+
+deviceId: D-48302
+deviceName: Light Iota
+roomId: R-49282
+deviceType: Light
+
+deviceId: D-29384
+deviceName: Fan Iota
+roomId: R-48293
+deviceType: Fan

@@ -1,0 +1,19 @@
+homeId: H-62357
+homeName: John's Home
+ownerId: U-23812
+
+homeId: H-19372
+homeName: Susan's Home
+ownerId: U-82736
+
+homeId: H-49201
+homeName: Ali's Home
+ownerId: U-91287
+
+homeId: H-83729
+homeName: Emma's Home
+ownerId: U-10283
+
+homeId: H-48290
+homeName: Michael's Home
+ownerId: U-39485
