@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{CDDAEFB3-BAC5-D496-65E0-39C334F48930}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="crow\examples\example.cpp" />
+    <ClCompile Include="crow\examples\example_blueprint.cpp" />
+    <ClCompile Include="crow\examples\example_catchall.cpp" />
+    <ClCompile Include="crow\examples\example_chat.cpp" />
+    <ClCompile Include="crow\examples\example_compression.cpp" />
+    <ClCompile Include="crow\examples\example_file_upload.cpp" />
+    <ClCompile Include="crow\examples\example_json_map.cpp" />
+    <ClCompile Include="crow\examples\example_middleware.cpp" />
+    <ClCompile Include="crow\examples\example_static_file.cpp" />
+    <ClCompile Include="crow\examples\example_vs.cpp" />
+    <ClCompile Include="crow\examples\example_with_all.cpp" />
+    <ClCompile Include="crow\examples\helloworld.cpp" />
+    <ClCompile Include="crow\examples\middlewares\example_cookies.cpp" />
+    <ClCompile Include="crow\examples\middlewares\example_cors.cpp" />
+    <ClCompile Include="crow\examples\middlewares\example_session.cpp" />
+    <ClCompile Include="crow\examples\ssl\example_ssl.cpp" />
+    <ClCompile Include="crow\examples\websocket\example_ws.cpp" />
+    <ClCompile Include="crow\tests\external_definition\main.cpp" />
+    <ClCompile Include="crow\tests\fuzz\b64_fuzzer.cpp" />
+    <ClCompile Include="crow\tests\fuzz\request_fuzzer.cpp" />
+    <ClCompile Include="crow\tests\fuzz\template_fuzzer.cpp" />
+    <ClCompile Include="crow\tests\multi_file\main.cpp" />
+    <ClCompile Include="crow\tests\multi_file\secondary.cpp" />
+    <ClCompile Include="crow\tests\query_string_tests.cpp" />
+    <ClCompile Include="crow\tests\ssl\ssltest.cpp" />
+    <ClCompile Include="crow\tests\template\mustachetest.cpp" />
+    <ClCompile Include="crow\tests\unittest.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\ac.cpp" />
+    <ClCompile Include="src\account.cpp" />
+    <ClCompile Include="src\admin.cpp" />
+    <ClCompile Include="src\device.cpp" />
+    <ClCompile Include="src\deviceType.cpp" />
+    <ClCompile Include="src\deviceTypeSupplier.cpp" />
+    <ClCompile Include="src\deviceTypeWorker.cpp" />
+    <ClCompile Include="src\doorLock.cpp" />
+    <ClCompile Include="src\energyUsage.cpp" />
+    <ClCompile Include="src\fan.cpp" />
+    <ClCompile Include="src\guest.cpp" />
+    <ClCompile Include="src\heater.cpp" />
+    <ClCompile Include="src\home.cpp" />
+    <ClCompile Include="src\inventory.cpp" />
+    <ClCompile Include="src\light.cpp" />
+    <ClCompile Include="src\Mystr.cpp" />
+    <ClCompile Include="src\room.cpp" />
+    <ClCompile Include="src\supplier.cpp" />
+    <ClCompile Include="src\user.cpp" />
+    <ClCompile Include="src\warehouse.cpp" />
+    <ClCompile Include="src\wifi.cpp" />
+    <ClCompile Include="src\windowLock.cpp" />
+    <ClCompile Include="src\worker.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="crow\include\crow.h" />
+    <ClInclude Include="crow\include\crow\app.h" />
+    <ClInclude Include="crow\include\crow\ci_map.h" />
+    <ClInclude Include="crow\include\crow\common.h" />
+    <ClInclude Include="crow\include\crow\compression.h" />
+    <ClInclude Include="crow\include\crow\exceptions.h" />
+    <ClInclude Include="crow\include\crow\http_connection.h" />
+    <ClInclude Include="crow\include\crow\http_parser_merged.h" />
+    <ClInclude Include="crow\include\crow\http_request.h" />
+    <ClInclude Include="crow\include\crow\http_response.h" />
+    <ClInclude Include="crow\include\crow\http_server.h" />
+    <ClInclude Include="crow\include\crow\json.h" />
+    <ClInclude Include="crow\include\crow\logging.h" />
+    <ClInclude Include="crow\include\crow\middleware.h" />
+    <ClInclude Include="crow\include\crow\middlewares\cookie_parser.h" />
+    <ClInclude Include="crow\include\crow\middlewares\cors.h" />
+    <ClInclude Include="crow\include\crow\middlewares\session.h" />
+    <ClInclude Include="crow\include\crow\middlewares\utf-8.h" />
+    <ClInclude Include="crow\include\crow\middleware_context.h" />
+    <ClInclude Include="crow\include\crow\mime_types.h" />
+    <ClInclude Include="crow\include\crow\multipart.h" />
+    <ClInclude Include="crow\include\crow\multipart_view.h" />
+    <ClInclude Include="crow\include\crow\mustache.h" />
+    <ClInclude Include="crow\include\crow\parser.h" />
+    <ClInclude Include="crow\include\crow\query_string.h" />
+    <ClInclude Include="crow\include\crow\returnable.h" />
+    <ClInclude Include="crow\include\crow\routing.h" />
+    <ClInclude Include="crow\include\crow\settings.h" />
+    <ClInclude Include="crow\include\crow\socket_adaptors.h" />
+    <ClInclude Include="crow\include\crow\task_timer.h" />
+    <ClInclude Include="crow\include\crow\TinySHA1.hpp" />
+    <ClInclude Include="crow\include\crow\utility.h" />
+    <ClInclude Include="crow\include\crow\version.h" />
+    <ClInclude Include="crow\include\crow\websocket.h" />
+    <ClInclude Include="include\ac.h" />
+    <ClInclude Include="include\account.h" />
+    <ClInclude Include="include\admin.h" />
+    <ClInclude Include="include\device.h" />
+    <ClInclude Include="include\deviceType.h" />
+    <ClInclude Include="include\deviceTypeSupplier.h" />
+    <ClInclude Include="include\deviceTypeWorker.h" />
+    <ClInclude Include="include\doorLock.h" />
+    <ClInclude Include="include\energyUsage.h" />
+    <ClInclude Include="include\fan.h" />
+    <ClInclude Include="include\guest.h" />
+    <ClInclude Include="include\heater.h" />
+    <ClInclude Include="include\home.h" />
+    <ClInclude Include="include\inventory.h" />
+    <ClInclude Include="include\light.h" />
+    <ClInclude Include="include\Mystr.h" />
+    <ClInclude Include="include\room.h" />
+    <ClInclude Include="include\supplier.h" />
+    <ClInclude Include="include\user.h" />
+    <ClInclude Include="include\warehouse.h" />
+    <ClInclude Include="include\wifi.h" />
+    <ClInclude Include="include\windowLock.h" />
+    <ClInclude Include="include\worker.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="crow\docs\overrides\home.html" />
+    <None Include="crow\docs\overrides\main.html" />
+    <None Include="crow\docs\overrides\partials\footer.html" />
+    <None Include="crow\docs\overrides\partials\header.html" />
+    <None Include="crow\docs\overrides\partials\integrations\analytics\matomo.html" />
+    <None Include="crow\docs\overrides\partials\social.html" />
+    <None Include="crow\docs\overrides\privacy_policy.html" />
+    <None Include="crow\examples\example_chat.html" />
+    <None Include="crow\examples\websocket\templates\ws.html" />
+    <None Include="frontend files\login.html" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
